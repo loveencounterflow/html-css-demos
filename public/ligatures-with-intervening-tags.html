@@ -24,11 +24,14 @@
     font-size:              5mm; }
   note {
     display:                block;
-    font-size:              ;
+    border-bottom:          1px dotted grey;
+    margin-bottom:          0.3ex;
   }
   </style>
 
 <div>affinity                         <code>affinity</code></div>
+<note>Set without any intervening tags; note the <code>ffi</code> ligature</note>
+
 <div>a<span>f</span>finity            <code>a&lt;span>f&lt;/span>finity</code></div>
 <note>Ligature is preserved in spite of the intervening <code>&lt;/span></code> tag</note>
 
@@ -36,7 +39,7 @@
 <note>Ligature breaks when first letter of <code>ffi</code> is resized</note>
 
 <div>a<span red green>f</span>finity        <code>a&lt;span red>f&lt;/span>finity</code></div>
-<note>But without resizing, only coloring happens—across the <em>entire</em> ligature</note>
+<note>Without resizing, only coloring happens—across the <em>entire</em> ligature</note>
 
 
 
