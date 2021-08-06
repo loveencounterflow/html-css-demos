@@ -17,7 +17,7 @@
 
 This archive contains very basic stuff that demos how (some) browsers deal with certain edge cases in
 HTML+CSS processing. For example—provided you have the correct font (EBGaramond) installed on your system,
-and have cloned this repo to your ocal
+and have cloned this repo to your local
 machine—[`public/ligatures-with-intervening-tags.html`](public/ligatures-with-intervening-tags.html) shows
 that at least Chrome-derived browsers (such as Brave) can suprise you when dealing with ligatures: While
 being *capable* of isolating individual glyphs from a ligature like `ffi` (as shown by one line where the
