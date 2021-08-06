@@ -24,7 +24,7 @@ being *capable* of isolating individual glyphs from a ligature like `ffi` (as sh
 size of the first `f` is increased), they are also capable (or, refuse to isolate the same character) when
 only the *color*, not the size of a letter is modified:
 
-![]()
+![](blob/master/public/ligatures-with-intervening-tags.html.png?raw=true)
 
 
 
