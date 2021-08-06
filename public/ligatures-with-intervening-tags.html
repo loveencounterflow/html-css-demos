@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<style>
+  body {
+    padding-top:            0mm;
+    font-size:              5mm;
+    font-family:            'Gentium Plus'; }
+  div {
+    padding:                0mm;
+    margin:                 0mm;
+    font-size:              10mm;
+    font-style:             italic;
+    line-height:            100%; }
+  [larger] {
+    font-size:              125%; }
+  [red] {
+    color:                  darkred; }
+  code {
+    font-style:             normal;
+    font-size:              5mm; }
+  note {
+    display:                block;
+    font-size:              ;
+  }
+  </style>
+
+<div>affinity                         <code>affinity</code></div>
+<div>a<span>f</span>finity            <code>a&lt;span>f&lt;/span>finity</code></div>
+<note>Ligature is preserved in spite of the intervening <code>&lt;/span></code> tag</note>
+
+<div>a<span larger red>f</span>finity <code>a&lt;span larger red>f&lt;/span>finity</code></div>
+<note>Ligature breaks when first letter of <code>ffi</code> is resized</note>
+
+<div>a<span red>f</span>finity        <code>a&lt;span red>f&lt;/span>finity</code></div>
+<note>But without resizing, only coloring happens—across the <em>entire</em> ligature</note>
+
+
+
+
