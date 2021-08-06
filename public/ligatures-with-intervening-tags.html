@@ -11,10 +11,14 @@
     font-size:              10mm;
     font-style:             italic;
     line-height:            100%; }
-  [larger] {
-    font-size:              125%; }
+  [green] {
+    background-color:       yellowgreen;
+    mix-blend-mode:         multiply;
+  }
   [red] {
     color:                  darkred; }
+  [larger] {
+    font-size:              125%; }
   code {
     font-style:             normal;
     font-size:              5mm; }
@@ -28,10 +32,10 @@
 <div>a<span>f</span>finity            <code>a&lt;span>f&lt;/span>finity</code></div>
 <note>Ligature is preserved in spite of the intervening <code>&lt;/span></code> tag</note>
 
-<div>a<span larger red>f</span>finity <code>a&lt;span larger red>f&lt;/span>finity</code></div>
+<div>a<span larger red green>f</span>finity <code>a&lt;span larger red>f&lt;/span>finity</code></div>
 <note>Ligature breaks when first letter of <code>ffi</code> is resized</note>
 
-<div>a<span red>f</span>finity        <code>a&lt;span red>f&lt;/span>finity</code></div>
+<div>a<span red green>f</span>finity        <code>a&lt;span red>f&lt;/span>finity</code></div>
 <note>But without resizing, only coloring happens—across the <em>entire</em> ligature</note>
 
 
